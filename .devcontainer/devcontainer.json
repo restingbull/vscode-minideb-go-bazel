@@ -1,4 +1,5 @@
-me": "vsdev_minideb-go",
+{
+	"name": "vsdev_minideb-go",
 	// Sets the run context to one level up instead of the .devcontainer folder.
 	"context": "..",
 	// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
