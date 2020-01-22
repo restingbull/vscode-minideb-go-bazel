@@ -40,3 +40,5 @@ RUN mkdir -vp $GOPATH
 
 RUN /bin/bash -c 'go get -u github.com/golang/protobuf/protoc-gen-go > /dev/null'
 RUN /bin/bash -c 'GO111MODULE=on go get golang.org/x/tools/gopls@latest > /dev/null'
+RUN /bin/bash -c 'GO111MODULE=on go get github.com/bazelbuild/buildtools/buildifier@latest > /dev/null'
+WORKDIR ${GOPATH}
